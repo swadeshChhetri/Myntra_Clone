@@ -1,0 +1,15 @@
+{
+  "name": "backend",
+  "version": "1.0.0",
+  "description": "A backend for serving JSON data",
+  "main": "index.js",
+  "scripts": {
+    "start": "json-server -p 3006 -w db.json"
+  },
+  "keywords": ["backend","json-server","api"],
+  "author": "Your Name",
+  "license": "ISC",
+  "dependencies": {
+    "json-server": "^1.0.0-beta.1"
+  }
+}
